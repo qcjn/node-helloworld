@@ -5,15 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install",
-    "start": "node api/index.hs"
+    "start": "node index.hs"
   },
   "dependencies": {
     "express": "^4.17.1",
     "body-parser": "^1.19.0",
     "node-fetch": "^2.6.0"
-  },
-  "engines": {
-    "node": "10.x"
   },
   "repository": {
     "url": "https://github.com/qcjn/node-helloworld.git"
