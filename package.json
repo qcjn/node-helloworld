@@ -1,14 +1,26 @@
 {
-  "name": "node-http-server",
-  "version": "1.0.0",
-  "description": "Node.js example server starter project",
+  "name": "node-helloworld",
+  "version": "0.0.1",
+  "description": "",  
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "build": "npm install",
+    "start": "node api/index.hs"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "nodemon": "1.18.4"
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "node-fetch": "^2.6.0"
   },
-  "keywords": []
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://github.com/qcjn/node-helloworld.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
 }
