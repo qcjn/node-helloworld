@@ -10,4 +10,4 @@ app.get("/", (req, res) => {
     .catch(error => res.status(422).json(error))
 })
 
-app.listen(80, () => console.log(`Example app listening on port 80!`))
+app.listen(8080, () => console.log(`Example app listening on port 8080!`))
